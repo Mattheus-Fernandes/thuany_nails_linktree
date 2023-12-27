@@ -1,38 +1,38 @@
+body {
+  background-color: rgb(232, 233, 225);
+  color: black;
+  padding: 20px 0px;
+  position: relative;
+}
+
 .App {
   text-align: center;
+  filter: blur(3);
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  position: absolute;
+    top: 0;
+    font-size: 2.9em;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.profile img{
+  position: relative;
+  width: 232px;
+  height: 232px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+  margin-top: 45px;
+  filter: contrast(0.8);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.blur {
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  filter: blur(5px);
+  transition: 3s;
 }

@@ -1,0 +1,31 @@
+.boxMessage {
+  background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.185)), url(../../public/image1.png);
+  background-size: cover;
+  color: white;
+  font-family: "Helvetica";
+  padding: 20px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 95px;
+}
+
+.boxMessage p {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.boxMessage span {
+  font-weight: bold;
+  color: rgb(156, 83, 224);
+  font-size: 1em;
+}
+
+.boxMessage .greenWord {
+  color: rgb(34, 241, 34);
+}
+
+

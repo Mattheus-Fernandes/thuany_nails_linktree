@@ -1,0 +1,46 @@
+.cursoOnline {
+  background: url(../../public/background-course-online.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2em;
+  font-family: "Helvetica";
+  position: relative;
+  position: absolute;
+  top: 95px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: #000000c4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #e8e9e1;
+  padding: 20px;
+
+}
+
+.overlay p {
+  margin-top: 10px;
+  font-size: .7em;
+}
+
+.overlay span {
+  text-transform: uppercase;
+  color: rgb(156, 83, 224);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.overlay .phrase {
+  font-size: .5em;
+  align-self: flex-start;
+  color: gold;
+}

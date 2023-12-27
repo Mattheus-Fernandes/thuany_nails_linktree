@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/Navbar/Navbar';
+import { motion } from "framer-motion"
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='profile'>
+        <img src="thuany_image.png" alt="thuany" />
+      </div>
+      <motion.h1
+        initial={{scale: 0}}
+        animate={{scale: 1.2}}
+        transition={{duration: .5}}
+        className='name'
+      >Thuany Nails</motion.h1>
+      <Navbar />      
     </div>
   );
 }
